@@ -1,25 +1,25 @@
 class Postvak < Formula
   desc "A fast, simple mail client with automatic mailbox rules"
   homepage "https://postvak.pataar.nl/"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/postvak-app/postvak/releases/download/v0.3.0/postvak-aarch64-apple-darwin.tar.xz"
-      sha256 "7866f080eb3e88a1917b93cfe805a3e27ae7999e2e290633b81165bdfd395e79"
+      url "https://github.com/postvak-app/postvak/releases/download/v0.3.1/postvak-aarch64-apple-darwin.tar.xz"
+      sha256 "4b479567a8213777050b5e6568ba729b204bb73176c4698cd7e726ae3fa97795"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/postvak-app/postvak/releases/download/v0.3.0/postvak-x86_64-apple-darwin.tar.xz"
-      sha256 "befd61e96e595206256c49d0bddb2791fca3e452a510c4d37005b3442028cb83"
+      url "https://github.com/postvak-app/postvak/releases/download/v0.3.1/postvak-x86_64-apple-darwin.tar.xz"
+      sha256 "c5321f2489db5e7197c8a08c7d730338105abe9455fc39a9f1f5bd43bed0f3dd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/postvak-app/postvak/releases/download/v0.3.0/postvak-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f68f3cf3892307ee33348ac4a0a4552ebe6d01f14bd32c592f66cfd0aa01d373"
+      url "https://github.com/postvak-app/postvak/releases/download/v0.3.1/postvak-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ae4a268f072cd085cf9f5c5e661c6cd9b77a4b4a9089bccdb6f84b21cb18c530"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/postvak-app/postvak/releases/download/v0.3.0/postvak-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a417b6b2dbcaa9d9f3e20db9cc9f2cbf2c8d54eb047047e854646849b7c47b55"
+      url "https://github.com/postvak-app/postvak/releases/download/v0.3.1/postvak-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "73b8faef2c82781743888e74fc1430f35258c75d0b6769d59699919aa0ac7b89"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
