@@ -2,7 +2,7 @@
 # Lines starting with @ADHOC@ are kept (marker stripped) for an ad hoc signed DMG and dropped for a notarized one.
 cask "postvak" do
   version "0.15.0"
-  sha256 "5def242c06c007f176a2133b165f06f0a3c058b7d9d37aebb8af1cb3f46b07a8"
+  sha256 "cdf21034750a2cc8de47b33462383701992e080cb58ce09573a096abd3023c5a"
 
   url "https://github.com/postvak-app/postvak/releases/download/v#{version}/postvak-#{version}-macos-universal.dmg"
   name "Postvak"
